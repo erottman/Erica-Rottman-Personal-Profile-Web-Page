@@ -33,74 +33,117 @@
                     <li><a href="#">Future</a></li>
                     <li><a href="#">Personal</a></li>
 
-                    <li class="dropdown"><a data-toggle="dropdown" data-target="#">Professional<b class="caret"></b></a>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" data-target="#">Professional<b class="caret">
+                      </b></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Github</a></li>
+                            <li class="divider"></li>
                             <li><a href="#">Linkedin</a></li>
                         </ul>
                     </li>
                 </ul>
-
             </div>
         </div>
     </div>
 
     <!-- End navbar -->
 
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Aspiring Full Stack Engineer</h1>
-            <p class="lead">Building a Personal Profile</p>
-            <p class="btn-group">
-                <a class="btn btn-success btn-lg" href="#">Git Hub Portfolio</a>
-                <a class="btn btn-default btn-lg hidden-xs" href="#">Text me the link</a>
-            </p>
-        </div>
 
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide jumbotron">
+        <div class="container">
+          <ol class="carousel-indicators">
+            <li class="active" data-target= "#myCarousel" data-slide-to="0"></li>
+            <li data-target= "#myCarousel" data-slide-to="1"></li>
+            <li data-target= "#myCarousel" data-slide-to="2"></li>
+          </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <h1>Full Stack Engineer</h1>
+                    <p class="lead">Galvanize Web Development Immersion</p>
+                    <p class="btn-group">
+                        <a class="btn btn-success btn-lg" href="#">Git Hub Portfolio</a>
+                        <a class="btn btn-default btn-lg hidden-xs" href="#">Text me the link</a>
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h1>Current Projects</h1>
+                    <p class="lead">What's Under Development </p>
+                    <p>
+                        <a class="btn btn-success btn-lg" href="#">Github</a>
+                    </p>
+
+                </div>
+
+                <div class="item">
+                  <h1>Profession Experience</h1>
+                  <p class="lead">Linkedin</p>
+                  <p>
+                      <a class="btn btn-success btn-lg" href="#">Linkedin</a>
+                  </p>
+
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+    </div>
+
+    <!-- End carousel -->
+
+
+    <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <h2>Professional Experience </h2>
-                <p> University of Wasghington graduate twice over with B.A. History and a Master's Health Care Administration focus on Health Care Informatics. I am also a veteran on the Army National Guard. My career has focused on the build, implementation,
+                <b class="glyphicon glyphicon-briefcase"></b>
+                <h2>Professional </h2>
+                <p> University of Wasghington graduate twice over with B.A. History and a Master's Health Care Administration focus on Health Care Informatics. I am also a veteran of the Army National Guard. My career has focused on the build, implementation,
                     support of Electronic Medical Records in large hospital systems.</p>
             </div>
 
             <div class="col-sm-4">
-                <h2>Future Aspirations</h2>
-                <p>By completing this program I hope to be profiecient in a variety of technologies that will prepare me to successfully become a junior engineer. After getting comfortale in the languages focused on in this program I want to concentrate
-                    on Mobile apps. I want to focus my capstone in one these areas- React native, Swift, Objective C, Java.
+                <b class="glyphicon glyphicon-road"></b>
+                <h2>Future </h2>
+                <p>By completing this program I hope to be profiecient in a variety of technologies that will prepare me to successfully become a junior engineer. Along with the languages focused on in this program I want to concentrate on Mobile apps. I
+                    want to explore one of these areas in my capstone - React native, Swift, Objective C, Java.
             </div>
 
             <div class="col-sm-4">
-                <h2>Personal Life</h2>
-                <p>I like pina colodas and getting caught in the rain....Joking aside, I'm a Washington native, currently, I live in West Seattle with my husband and our two corgis - Govenor and Godzilla. I'm pretty Basic - I like the Seahawks, playing tennis,
-                    summer evenings down on Alki, mexican food at La Fonda Cantina in Georgetown, and stiff drinks at the Tugg on Delrdige. I love to travel and cannot go a year without seeing a new place..this year its Nicargua and hopefully Cuba.
+                <b class="glyphicon glyphicon-folder-open"></b>
+                <h2>Portfolio</h2>
+                <p>Please check out my portfolio on Github and my inkedin profile</p>
+                <a href="#">Github Account &raquo; </a>
             </div>
         </div>
         <hr>
 
         <div class="row">
+            <div class="col-sm-6">
+                <h3>Personal Life</h3>
+                <p>I like pina colodas and getting caught in the rain....Joking aside, I'm a Washington native, currently, I live in West Seattle with my husband Jeremy and our two corgis - Govenor and Godzilla. I'm pretty Basic - I like the Seahawks, playing
+                    tennis, summer evenings down on Alki, mexican food at La Fonda Cantina in Georgetown, and kaorke at the New Luck Toy. I love to travel and cannot go a year without seeing a new place..this year its Nicargua and hopefully Cuba.
+                    <hr>
+                    <img src="img/paris.jpg" class=".img-responsive img-circle" alt="costa rica" height="240" width="260">
+            </div>
             <div class="col-sm-6 hidden-xs">
-                <h3>My Two Corgis</h3>
+                <h3>Guvy & Zilla</h3>
                 <p>These two are the joys of my life. They are both almost 3, and are still little terrors but in a good way.</p>
-
 
                 <div class="row">
                     <div class="col-sm-6 col-md-push">
-                        <video src="video/snowpuppies.mov" controls height=325 width=450 poster="img/guvypic.jpg">
+                        <video src="video/snowpuppies.mov" controls height=325 width=450 poster="img/guvyzill.jpg">
                         </video>
                     </div>
                     <div class="col-sm-6 col-md-pull">
-                        <p>Let's see what this picture is</p>
-                        <a href="#">Github &raquo; </a>
+                        <p>Corgi Snow Day</p>
                     </div>
                 </div>
-
-            </div>
-
-            <div class="col-sm-6">
-                <h3>Portfolio</h3>
-                <p>Please check out my portfolio on Github and my linkedin profile</p>
-                <a href="#">Github Account &raquo; </a>
             </div>
         </div>
 
