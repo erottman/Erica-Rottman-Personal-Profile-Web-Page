@@ -1,3 +1,29 @@
+/* Typography
+=============================================== */
+
+h1 {
+  font-weight: 200px;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 1.25em;
+  color: #4c4a4c;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+p {
+  color: #575458;
+  line-height: 1.3s;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+strong {
+  color: #5f5d60;
+}
+
 
 /* Layout
 =============================================== */
@@ -9,7 +35,13 @@ body {
   max-width: 1000px;
 }
 
+.ft {
+  margin-bottom: 72px;
+}
 
+.ft-copy {
+  padding-top: 32px;
+}
 
 
 /* Navbar
@@ -23,9 +55,8 @@ body {
 .nav  {
   font-weight: bold;
 
+
 }
-
-
 
 
 /* Jumbotron
@@ -72,4 +103,65 @@ body {
 
 .model-content{
   background-color: white;
+}
+
+
+
+/* Logos & Icons
+=============================================== */
+
+.ft-icon {
+  width: 96%;
+  height: 260px;
+  position: relative;
+  background: #AFEEEE	 url('../img/main-bg.png') no-repeat 270px -180px;
+  background-size: 140%;
+}
+
+
+.ft-icon::before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 280px;
+	height: 200px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+  background-size: 100%;
+}
+.dog::before {
+  width: 340px;
+  background-size: 130%;
+  background-position: 0 -105px;
+  background-image: url('../img/zillabeach.jpg');
+
+}
+
+.friends::before {
+  width: 340px;
+  background-size: 80%;
+  background-position: 0 -105px;
+  background-image: url('../img/mom.jpg');
+  background-position: 0 -210px;
+
+}
+.travel::before {
+  width: 340px;
+  background-size: 100%;
+  background-position: 0 -105px;
+  background-image: url('../img/roswell.jpg');
+
+}
+
+
+.ft-icon.friends {
+  background-position: -500px 0;
+}
+
+
+.ft-icon.travel {
+  background-position: 260px 0;
 }
