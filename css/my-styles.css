@@ -1,3 +1,4 @@
+
 /* Layout
 =============================================== */
 body {
@@ -7,6 +8,23 @@ body {
 .container {
   max-width: 1000px;
 }
+
+
+
+
+/* Navbar
+=============================================== */
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+
+.nav  {
+  font-weight: bold;
+
+}
+
 
 
 
@@ -46,4 +64,12 @@ body {
 
 .carousel-indicators li {
   border-color: #222;
+}
+
+
+/* Modal
+=============================================== */
+
+.model-content{
+  background-color: white;
 }
