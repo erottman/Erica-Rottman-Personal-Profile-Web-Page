@@ -180,7 +180,7 @@ body {
   width: 340px;
   background-size: 80%;
   background-position: 0 -105px;
-  background-image: url('../img/football.jpg');
+  background-image: url('');
   background-position: 0 -210px;
 
 }
@@ -188,6 +188,6 @@ body {
   width: 340px;
   background-size: 100%;
   background-position: 0 -105px;
-  background-image: url('../img/roswell.jpg');
+  background-image: url('');
 
 }
