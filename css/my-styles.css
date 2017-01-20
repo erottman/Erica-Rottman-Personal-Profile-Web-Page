@@ -156,7 +156,6 @@ body {
 
 }
 
-
 .ft-icon.friends {
   background-position: -500px 0;
 }
@@ -164,4 +163,31 @@ body {
 
 .ft-icon.travel {
   background-position: 260px 0;
+}
+
+
+.javascript::before {
+  width: 340px;
+  background-size: 130%;
+  background-position: 0 -105px;
+  background-image: url('');
+
+
+
+}
+
+.jquery::before {
+  width: 340px;
+  background-size: 80%;
+  background-position: 0 -105px;
+  background-image: url('../img/football.jpg');
+  background-position: 0 -210px;
+
+}
+.angular::before {
+  width: 340px;
+  background-size: 100%;
+  background-position: 0 -105px;
+  background-image: url('../img/roswell.jpg');
+
 }
