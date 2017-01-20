@@ -192,3 +192,21 @@ body {
   background-image: url('');
 
 }
+
+.ft-icon.javascript {
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+}
+
+.ft-icon.jquery {
+text-align: center;
+font-weight: bolder;;
+font-size: 16px;
+}
+
+.ft-icon.angular {
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+}
