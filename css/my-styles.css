@@ -168,9 +168,10 @@ body {
 
 .javascript::before {
   width: 340px;
-  background-size: 130%;
-  background-position: 0 -105px;
-  background-image: url('');
+  background-size: 90%;
+  background-position: 0 -100px;
+  background-image: url('../img/hangman3.png');
+  background-repeat: no-repeat;
 
 
 
@@ -178,10 +179,10 @@ body {
 
 .jquery::before {
   width: 340px;
-  background-size: 80%;
+  background-size: 130%;
   background-position: 0 -105px;
-  background-image: url('');
-  background-position: 0 -210px;
+  background-image: url('http://nostarch.com/images/treasuremap.png');
+
 
 }
 .angular::before {
